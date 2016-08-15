@@ -1,15 +1,13 @@
 {
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "version": "1.0.0",
-      "type": "platform"
-    },
+    "Dapper": "1.50.2",
+    "Auth0.ManagementApi": "3.2.0",
+    "Google.Apis.Datastore.v1beta3": "1.15.0.579",
+    "Microsoft.NETCore.App": { "version": "1.0.0", "type": "platform" },
+    "Microsoft.AspNetCore.Authentication.JwtBearer": "1.0.0",
     "Microsoft.AspNetCore.Mvc": "1.0.0",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
-    "Google.Apis.Datastore.v1beta3": "1.15.0.579",
-    "SapientGuardian.MySql.Data": "6.9.812",
-    "Dapper": "1.50.2",
     "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
     "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
     "Microsoft.Extensions.Configuration.Json": "1.0.0",
@@ -17,7 +15,8 @@
     "Microsoft.Extensions.Logging": "1.0.0",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
-    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0"
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+    "SapientGuardian.MySql.Data": "6.9.812"
   },
 
   "tools": {

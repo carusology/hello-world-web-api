@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 using hwwebapi.Core;
@@ -23,6 +24,7 @@ namespace hwwebapi.Controllers {
 
         // GET api/values
         [HttpGet]
+        [Authorize]
         public IActionResult GetAll() {
             return Ok(this.repository.GetAll());
         }
